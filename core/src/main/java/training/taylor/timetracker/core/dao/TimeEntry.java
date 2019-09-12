@@ -32,7 +32,7 @@ public class TimeEntry {
      *
      * @return description
      */
-    final public String getDescription() {
+    public final String getDescription() {
         return description;
     }
 
@@ -42,7 +42,7 @@ public class TimeEntry {
      * @param value
      *            description
      */
-    final public void setDescription(final String value) {
+    public final void setDescription(final String value) {
         this.description = value;
     }
 
@@ -51,7 +51,7 @@ public class TimeEntry {
      *
      * @return rate
      */
-    final public float getRate() {
+    public final float getRate() {
         return rate;
     }
 
@@ -61,7 +61,7 @@ public class TimeEntry {
      * @param value
      *            rate
      */
-    final public void setRate(final float value) {
+    public final void setRate(final float value) {
         this.rate = value;
     }
 
@@ -70,7 +70,7 @@ public class TimeEntry {
      *
      * @return time
      */
-    final public int getTime() {
+    public final int getTime() {
         return time;
     }
 
@@ -80,12 +80,12 @@ public class TimeEntry {
      * @param value
      *            time
      */
-    final public void setTime(final int value) {
+   public  final void setTime(final int value) {
         this.time = value;
     }
 
     @Override
-    final public String toString() {
+    public final String toString() {
         return "TimeEntry{"
                 + "description='" + description + '\''
                 + ", rate=" + rate
