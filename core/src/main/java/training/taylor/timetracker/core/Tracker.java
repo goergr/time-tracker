@@ -15,28 +15,28 @@ import training.taylor.timetracker.core.dao.TimeEntry;
  */
 @Component
 public class Tracker {
-	/**
-	 * time entries
-	 */
+    /**
+     * time entries.
+     */
     @Autowired
     private List<TimeEntry> entries;
 
-	/**
-	 * add entry.
-	 * 
-	 * @param entry
-	 *            entry
-	 */
+    /**
+     * add entry.
+     *
+     * @param entry
+     *            entry
+     */
     public final void add(final TimeEntry entry) {
         entries.add(entry);
     }
 
-	/**
-	 * remove entry.
-	 * 
-	 * @param entry
-	 *            entry
-	 */
+    /**
+     * remove entry.
+     *
+     * @param entry
+     *            entry
+     */
     public final void remove(final TimeEntry entry) {
 //        if (true) {
 //            entries.remove(entry);
@@ -45,22 +45,22 @@ public class Tracker {
         entries.remove(entry);
     }
 
-	/**
-	 * size.
-	 * 
-	 * @return size
-	 */
+    /**
+     * size.
+     *
+     * @return size
+     */
     public final int size() {
         return entries.size();
     }
 
-	/**
-	 * Getter.
-	 * 
-	 * @param index
-	 *            index
-	 * @return entry
-	 */
+    /**
+     * Getter.
+     *
+     * @param index
+     *            index
+     * @return entry
+     */
     public final TimeEntry get(final int index) {
         return entries.get(index);
     }
