@@ -19,11 +19,11 @@ import training.taylor.timetracker.core.dao.TimeEntry;
 @ComponentScan("training.taylor.timetracker.core")
 public class TrackerCoreConfig {
 
-	/**
-	 * Bean.
-	 * 
-	 * @return entries
-	 */
+    /**
+     * Bean.
+     *
+     * @return entries
+     */
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
         return new ArrayList<>();
