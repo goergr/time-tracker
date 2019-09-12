@@ -13,32 +13,32 @@ public class TimeEntry {
     private float rate;
     private int time;
 
-    public String getDescription() {
+    final public String getDescription() {
         return description;
     }
 
-    public void setDescription(final String value) {
+    final public void setDescription(final String value) {
         this.description = value;
     }
 
-    public float getRate() {
+    final public float getRate() {
         return rate;
     }
 
-    public void setRate(final float value) {
+    final public void setRate(final float value) {
         this.rate = value;
     }
 
-    public int getTime() {
+    final public int getTime() {
         return time;
     }
 
-    public void setTime(final int value) {
+    final public void setTime(final int value) {
         this.time = value;
     }
 
     @Override
-    public String toString() {
+    final public String toString() {
         return "TimeEntry{" +
                 "description='" + description + '\'' +
                 ", rate=" + rate +
