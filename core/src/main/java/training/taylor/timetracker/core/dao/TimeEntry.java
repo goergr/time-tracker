@@ -25,7 +25,7 @@ public class TimeEntry {
         return rate;
     }
 
-    public void setRate(fnal float value) {
+    public void setRate(final float value) {
         this.rate = value;
     }
 
