@@ -1,3 +1,6 @@
+/**
+ * core.dao
+ */
 package training.taylor.timetracker.core.dao;
 
 import org.springframework.context.annotation.Scope;
@@ -9,10 +12,26 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class TimeEntry {
+	/**
+	 * description
+	 */
     private String description;
+
+	/**
+	 * rate
+	 */
     private float rate;
+
+	/**
+	 * time
+	 */
     private int time;
 
+	/**
+	 * Getter
+	 * 
+	 * @return description
+	 */
     final public String getDescription() {
         return description;
     }
@@ -21,18 +40,40 @@ public class TimeEntry {
         this.description = value;
     }
 
+	/**
+	 * Getter
+	 * 
+	 * @return rate
+	 */
     final public float getRate() {
         return rate;
     }
 
+	/**
+	 * Setter
+	 * 
+	 * @param value
+	 *            rate
+	 */
     final public void setRate(final float value) {
         this.rate = value;
     }
 
+	/**
+	 * Getter
+	 * 
+	 * @return time
+	 */
     final public int getTime() {
         return time;
     }
 
+	/**
+	 * Setter
+	 * 
+	 * @param value
+	 *            time
+	 */
     final public void setTime(final int value) {
         this.time = value;
     }
