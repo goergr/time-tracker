@@ -13,22 +13,22 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class TimeEntry {
     /**
-     * description
+     * description.
      */
     private String description;
 
     /**
-     * rate
+     * rate.
      */
     private float rate;
 
     /**
-     * time
+     * time.
      */
     private int time;
 
     /**
-     * Getter
+     * Getter.
      *
      * @return description
      */
@@ -37,7 +37,7 @@ public class TimeEntry {
     }
 
     /**
-     * Setter
+     * Setter.
      *
      * @param value
      *            description
@@ -47,7 +47,7 @@ public class TimeEntry {
     }
 
     /**
-     * Getter
+     * Getter.
      *
      * @return rate
      */
@@ -56,7 +56,7 @@ public class TimeEntry {
     }
 
     /**
-     * Setter
+     * Setter.
      *
      * @param value
      *            rate
@@ -66,7 +66,7 @@ public class TimeEntry {
     }
 
     /**
-     * Getter
+     * Getter.
      *
      * @return time
      */
@@ -75,7 +75,7 @@ public class TimeEntry {
     }
 
     /**
-     * Setter
+     * Setter.
      *
      * @param value
      *            time
